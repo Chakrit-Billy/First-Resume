@@ -1,4 +1,5 @@
 import "./Page2.css";
+import BL from "../src/assets/Billy.png";
 function Page2() {
   return (
     <>
@@ -8,7 +9,7 @@ function Page2() {
             <div className="flex-col h-[600px] relative mr-[200px]">
               <div className="Box-1 "></div>
               <img
-                src="src/assets/Billy.png"
+                src={BL}
                 alt=""
                 className="w-[365px] h-[385px] absolute top-[50px] left-[-50px]"
               />
