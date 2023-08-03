@@ -1,0 +1,133 @@
+.Box-1 {
+  border: solid 7px #00d7bb;
+  width: 365px;
+  height: 385px;
+  z-index: -1;
+}
+.button-1 {
+  background: linear-gradient(to right, #17d396, #07f7f7);
+
+  box-shadow: 0 0 20px rgba(22, 213, 156, 0.7);
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 100px;
+  padding: 14px 22px;
+  text-align: center;
+}
+a:hover {
+  color: white !important;
+  text-decoration: underline;
+}
+.text-1 {
+  background-image: linear-gradient(to right, #00f298, #07f7f7);
+  background-clip: text;
+  -webkit-background-clip: text; /* For older WebKit-based browsers */
+  color: transparent;
+  font-size: 45px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.text-2 {
+  display: block;
+  width: 395px;
+  height: 156px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 26px;
+  margin: 20px 60px 20px 0;
+}
+.profile-menu {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.4px;
+  line-height: 26px;
+  display: block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.profile-menu li {
+  color: #fff;
+  font-size: 17.5px;
+  margin-bottom: 16px;
+  list-style: none;
+  display: list-item;
+  text-align: -webkit-match-parent;
+  margin-right: 20px;
+}
+ul li span {
+  background-image: linear-gradient(to right, #00f298, #07f7f7);
+  background-clip: text;
+  -webkit-background-clip: text; /* For older WebKit-based browsers */
+  color: transparent;
+  font-size: 17.5;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.text-3 {
+  background-image: linear-gradient(to right, #00f298, #07f7f7);
+  background-clip: text;
+  -webkit-background-clip: text; /* For older WebKit-based browsers */
+  color: transparent;
+  display: inline-block;
+  font-size: 45px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.Box-2 i {
+  border: 1px solid #00d7bb;
+  border-radius: 50%;
+  color: #00d7bb;
+  display: table-cell;
+  font-size: 44px;
+  height: 90px;
+  line-height: 50px;
+  text-align: center;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  vertical-align: middle;
+  width: 90px;
+}
+.icon-decorated {
+  position: relative;
+}
+
+.icon-decorated i {
+  border: 1px solid #00d7bb;
+  border-radius: 50%;
+  color: #00d7bb;
+  display: table-cell;
+  font-size: 44px;
+  height: 90px;
+  line-height: 50px;
+  text-align: center;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  vertical-align: middle;
+  width: 90px;
+}
+
+.icon-decorated p {
+  opacity: 0;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 30px;
+  white-space: nowrap;
+  transition: opacity 0.3s ease;
+}
+
+.icon-decorated:hover p {
+  opacity: 1;
+}
+
+.Text {
+  font-family: "Open Sans", sans-serif;
+}

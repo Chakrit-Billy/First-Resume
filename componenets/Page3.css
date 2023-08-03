@@ -1,0 +1,138 @@
+.HeaderP3 {
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  letter-spacing: 0.4px;
+  text-align: center;
+  box-sizing: border-box;
+  font-family: inherit;
+  line-height: 1.1;
+  color: inherit;
+  margin: 0;
+  background-image: linear-gradient(to right, #00f298, #07f7f7);
+  background-clip: text;
+  -webkit-background-clip: text; /* For older WebKit-based browsers */
+  color: transparent;
+  display: inline-block;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 45px;
+}
+
+.contentP3 {
+  background-image: linear-gradient(to right, #00f298, #07f7f7);
+  background-clip: text;
+  -webkit-background-clip: text; /* For older WebKit-based browsers */
+  color: transparent;
+  font-size: 36px;
+  letter-spacing: 0.4px;
+  text-align: center;
+  box-sizing: border-box;
+  font-family: inherit;
+  line-height: 1.1;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.contentP {
+  background-image: linear-gradient(to right, #00f298, #07f7f7);
+  background-clip: text;
+  -webkit-background-clip: text; /* For older WebKit-based browsers */
+  color: transparent;
+  font-size: 24px;
+  letter-spacing: 0.4px;
+  text-align: center;
+  box-sizing: border-box;
+  font-family: inherit;
+  line-height: 1.1;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.skill {
+  width: 500px;
+  margin-bottom: 30px;
+}
+
+.skill-bar {
+  width: 100%;
+  background-color: #0f1012;
+  height: 5px;
+}
+
+.skill-level {
+  height: 100%;
+}
+
+/* Skill bar colors */
+.html {
+  background: linear-gradient(to right, #40b471, #2ad6cf);
+}
+
+.css {
+  background: linear-gradient(to right, #40b471, #2ad6cf);
+}
+
+.js {
+  background: linear-gradient(to right, #40b471, #2ad6cf);
+}
+/* ... Your existing CSS styles for skill bars ... */
+
+/* Set the text color to white for all <p> tags inside .skill class */
+.skill p {
+  color: white;
+  font-size: 19px;
+}
+/* ... Your existing CSS styles for skill bars ... */
+
+/* Skill bar colors */
+/* Add colors for additional skills if needed */
+.html {
+  background: linear-gradient(to right, #40b471, #2ad6cf);
+}
+.css {
+  background: linear-gradient(to right, #40b471, #2ad6cf);
+}
+.js {
+  background: linear-gradient(to right, #40b471, #2ad6cf);
+}
+.react {
+  background: linear-gradient(to right, #40b471, #2ad6cf);
+}
+.nodejs {
+  background: linear-gradient(to right, #40b471, #2ad6cf);
+}
+.python {
+  background: linear-gradient(to right, #40b471, #2ad6cf);
+}
+
+.percentage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: bold;
+}
+/* ... Your existing CSS styles for skill bars ... */
+
+.skills-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the skill bars horizontally */
+}
+
+.skill-bar {
+  width: 400px; /* Set the fixed width to 400 pixels */
+  background-color: #0f1012;
+  height: 5px;
+  position: relative;
+}
+
+/* Rest of the CSS styles remain the same... */
