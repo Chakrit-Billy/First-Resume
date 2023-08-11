@@ -14,7 +14,9 @@ function Page2() {
                 className='w-[365px] h-[385px] absolute top-[50px] left-[-50px]'
               />
               <button className='button-1 w-[200px] h-[54px] ml-[82.5px] '>
-                <a href='/Resume Chakrit-Billy.pdf' className='text-white '>
+                <a
+                  href='https://drive.google.com/file/d/18gpd7x0GDHC2nedy8Wo73kLLKJ3A3VDA/view?usp=drive_link'
+                  className='text-white '>
                   <i className='fa fa-cloud-download mr-[5px]'></i>
                   Download Resume
                 </a>
