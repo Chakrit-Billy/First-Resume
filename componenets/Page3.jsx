@@ -1,72 +1,65 @@
 import "./Page3.css";
 function Page3() {
   const skills = [
-    { name: "HTML", percentage: 90 },
-    { name: "CSS", percentage: 80 },
-    { name: "js", percentage: 65 },
-    { name: "React", percentage: 70 },
-    { name: "Nodejs", percentage: 60 },
-    { name: "Python", percentage: 85 },
+    {
+      category: "Programming Languages",
+      skills: ["Javascript", "Python", "Matlab", "C and C++"],
+    },
+    {
+      category: "Web Development",
+      skills: ["HTML", "CSS", "React.js", "Node.js"],
+    },
+    { category: "Databases", skills: ["MongoDB", "PostgreSQL"] },
+    {
+      category: "Others",
+      skills: ["Git", "Postman", "Vs code", "Arduino IDE"],
+    },
   ];
   return (
     <>
-      <div className="w-[1980px] h-[1080px] bg-black flex flex-col items-center pt-[50px]">
-        <div className="HeaderP3 mb-[50px] ">EDUCATION</div>
-        <div className="icon-decorated mt-[50px] mb-[50px]">
-          <i className="fa-solid fa-school"></i>
+      <div className='w-[1980px] h-[1080px] bg-black flex flex-col items-center pt-[50px]'>
+        <div className='HeaderP3 mb-[50px] '>EDUCATION</div>
+        <div className='icon-decorated mt-[50px] mb-[50px]'>
+          <i className='fa-solid fa-school'></i>
         </div>
-        <div className="flex mb-[50px]">
-          <div className="contentP3 mr-[20px]">Bachelor Degree : </div>
-          <div className="contentP flex justify-center items-center">
+        <div className='flex mb-[50px]'>
+          <div className='contentP3 mr-[20px]'>Bachelor Degree : </div>
+          <div className='contentP flex justify-center items-center'>
             {" "}
             Prince of Songkla University
           </div>
         </div>
-        <div className=" mb-[50px]">
-          <p className="w-[700px] text-white text-[24px]">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
-            quidem voluptatum atque mollitia velit soluta tenetur, neque
-            inventore distinctio doloremque, id consequatur maiores nihil libero
-            incidunt molestias commodi ab magnam.
+        <div className=' mb-[50px]'>
+          <p className='w-[700px] text-white text-[24px]'>
+            As a recent graduate with a GPA of 3.59, I am proud to have achieved
+            the second-highest honors in my academic journey. My dedication to
+            excellence is not only reflected in my grades but also in my
+            unwavering passion for web development. This fervor is what fuels my
+            aspiration to become a proficient full-stack developer.
           </p>
         </div>
-        <div className="flex flex-col items-center">
-          <div className="HeaderP3 ">PROFESSIONAL SKILLS</div>
-          <div className="bg-[#313741] w-[1980px] h-[360px] flex items-center justify-center mt-[50px]">
-            <div className="skills-container">
-              {/* Left Column */}
-              <div className="skills-column ">
-                {skills.slice(0, 3).map((skill) => (
-                  <div className="skill" key={skill.name}>
-                    <p>{skill.name}</p>
-                    <div className="skill-bar">
-                      <div
-                        className={`skill-level ${skill.name.toLowerCase()}`}
-                        style={{ width: `${skill.percentage}%` }}
-                      >
-                        <span className="percentage">{`${skill.percentage}%`}</span>
-                      </div>
-                    </div>
+        <div className='flex flex-col items-center'>
+          <div className='HeaderP3 '>PROFESSIONAL SKILLS</div>
+          <div className='bg-[#313741] w-[1980px] h-[360px] flex items-center justify-center mt-[50px]'>
+            <div className='grid grid-cols-4 gap-8 mx-auto'>
+              {skills.map((category, index) => (
+                <div key={index} className='text-white text-center'>
+                  <div className='text-2xl font-semibold mb-4 border-b-2 border-gray-600 pb-2'>
+                    {category.category}
                   </div>
-                ))}
-              </div>
-
-              {/* Right Column */}
-              <div className="skills-column">
-                {skills.slice(3).map((skill) => (
-                  <div className="skill" key={skill.name}>
-                    <p>{skill.name}</p>
-                    <div className="skill-bar">
-                      <div
-                        className={`skill-level ${skill.name.toLowerCase()}`}
-                        style={{ width: `${skill.percentage}%` }}
-                      >
-                        <span className="percentage">{`${skill.percentage}%`}</span>
-                      </div>
-                    </div>
-                  </div>
-                ))}
-              </div>
+                  <ul className='list-none p-0'>
+                    {category.skills.map((skill, skillIndex) => (
+                      <li
+                        key={skillIndex}
+                        className='mb-2 text-lg text-green-400'>
+                        <span className='bg-gray-800 rounded-lg px-2 py-1'>
+                          {skill}
+                        </span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ))}
             </div>
           </div>
         </div>
