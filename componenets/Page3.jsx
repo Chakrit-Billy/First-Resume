@@ -40,7 +40,7 @@ function Page3() {
         </div>
         <div className='flex flex-col items-center'>
           <div className='HeaderP3 '>PROFESSIONAL SKILLS</div>
-          <div className='bg-[#313741] w-[1980px] h-[360px] flex items-center justify-center mt-[50px]'>
+          <div className='bg-[#313741] w-[1980px] h-[340px] flex items-center justify-center mt-[50px]'>
             <div className='grid grid-cols-4 gap-8 mx-auto'>
               {skills.map((category, index) => (
                 <div key={index} className='text-white text-center'>
