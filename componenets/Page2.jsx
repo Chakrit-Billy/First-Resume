@@ -15,7 +15,7 @@ function Page2() {
               />
               <button className='button-1 w-[200px] h-[54px] ml-[82.5px] '>
                 <a
-                  href='https://drive.google.com/file/d/18gpd7x0GDHC2nedy8Wo73kLLKJ3A3VDA/view?usp=drive_link'
+                  href='https://drive.google.com/file/d/1thPbFWeAEKARV_tasYgO2cOVVI0Fa67S/view?usp=drive_link'
                   className='text-white '>
                   <i className='fa fa-cloud-download mr-[5px]'></i>
                   Download Resume
