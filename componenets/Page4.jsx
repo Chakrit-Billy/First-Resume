@@ -2,7 +2,7 @@ import "./Page4.css";
 function Page4() {
   return (
     <>
-      <footer className="w-[1980px] h-[213px] flex justify-center items-center">
+      <footer className='w-[1980px] h-[213px] flex justify-center items-center mt-[10px]'>
         <div>
           <h2>HIRE ME FOR YOUR AWESOME PROJECT</h2>
           <p>
